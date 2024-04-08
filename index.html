@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whitehat.realty</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,100,0,0"
+    />
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="">
+    <header class="min-h-[150vh] relative sm:min-h-screen">
+      <div
+        class="absolute z-1 bg-gradient-to-t from-[#04042490] to-[#04042490] w-full h-full"
+      ></div>
+      <nav
+        class="nav absolute w-full items-center justify-between sm:flex-row flex-col flex h-2/6 px-8 lg:px-32"
+      >
+        <div
+          class="bg-[url(logo.png)] bg-center bg-cover bg-no-repeat w-full sm:w-1/2 lg:w-1/3 h-full"
+        >
+          hello
+        </div>
+        <div>
+          <button class="bg-[#1d83fb] px-8 py-5 text-white">
+            SCHEDULE A TOUR
+          </button>
+        </div>
+      </nav>
+      <div
+        class="flex flex-col sm:flex-row absolute px-8 lg:px-32 top-1/3 w-full text-white"
+      >
+        <div class="my-10 sm:w-1/2">
+          <h1 class="text-3xl md:text-5xl">
+            Skytech Colours Avenue Sector-10, Greater Noida West
+          </h1>
+          <a href="#main"
+            ><button
+              class="px-6 py-2 md:py-4 mt-10 w-full md:w-64 text-white text-2xl border border-1 border-solid"
+            >
+              EXPLORE
+            </button></a
+          >
+        </div>
+        <div
+          class="flex flex-col md:flex-row justify-around w-full sm:w-1/2 items-center md:items-end"
+        >
+          <div>
+            <div>3 Bedrooms</div>
+            <span class="material-symbols-outlined text-8xl">bed</span>
+          </div>
+          <div>
+            <div>2 bathrooms</div>
+            <span class="material-symbols-outlined text-8xl">bathtub</span>
+          </div>
+          <div>
+            <div>Open floorplan</div>
+            <span class="material-symbols-outlined text-8xl">zoom_out_map</span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="w-full -z-20 absolute h-full object-cover bg-cover bg-[url(background.png)]"
+      ></div>
+    </header>
+    <main id="main">
+      <section
+        id="about"
+        class="min-h-[65vh] flex flex-col sm:flex-row justify-evenly pb-1/6 mx-auto items-center lg:w-5/6 w-full"
+      >
+        <div class="flex items-center my-5 flex-col w-10/12 sm:w-2/5">
+          <h1 class="w-full text-4xl lg:text-5xl">About the Property</h1>
+          <p class="w-full mt-8 sm:font-medium text-lg">
+            Skytech Colours Avenue, developed on a 3-acre land, offers 514
+            apartments across 5 towers. With a 24-meter wide road at the front
+            and a reserved parkland at the back, it ensures openness. Featuring
+            2 and 3 BHK options, the project prioritizes green spaces, though
+            relatively limited, and includes luxurious amenities like a 10,000
+            square feet clubhouse and 2-level basement parking.
+          </p>
+        </div>
+        <div
+          class="my-5 w-2/3 sm:w-1/3 lg:w-2/5 flex items-center justify-center"
+        >
+          <img class="lg:w-3/4" src="img.png" alt="" />
+        </div>
+      </section>
+      <section
+        class="flex min-h-[65vh] flex-col md:flex-row justify-evenly px-[5vw] py-10 lg:px-[10vw] bg-[#ededee] items-center w-full"
+      >
+        <div class="menu flex flex-col 1/5 w-full">
+          <h1 class="text-xl md:text-2xl my-4 font-bold">PROPERTY FEATURES</h1>
+          <p class="my-2 font-semibold">Community Room</p>
+          <p class="my-2 font-semibold">Underground Parking</p>
+          <p class="my-2 font-semibold">Building Signage</p>
+          <p class="my-2 font-semibold">Visitor Parking Lot</p>
+          <p class="my-2 font-semibold">Elevator</p>
+          <p class="my-2 font-semibold">Storage for each suite</p>
+        </div>
+        <div class="menu flex flex-col 1/5 w-full">
+          <h1 class="text-lg md:text-2xl my-4 font-bold">PROJECT INFO</h1>
+          <p class="my-2 font-semibold">
+            Launch Date<span class="font-normal ml-2">June 2015</span>
+          </p>
+          <p class="my-2 font-semibold">
+            Pause in Development<span class="font-normal ml-2">2018-2023</span>
+          </p>
+          <p class="my-2 font-semibold">
+            Managed by<span class="font-normal ml-2">AECOM</span>
+          </p>
+          <p class="my-2 font-semibold">
+            Year Built<span class="font-normal ml-2">Under Construction</span>
+          </p>
+          <p class="my-2 font-semibold">
+            Backed by<span class="font-normal ml-2">SBICAP and SWAMIH</span>
+          </p>
+          <p class="my-2 font-semibold">
+            Expected Completion<span class="font-normal ml-2">2-3 years</span>
+          </p>
+        </div>
+        <div class="menu flex flex-col 1/5 w-full">
+          <h1 class="text-lg md:text-2xl my-4 font-bold">Developer</h1>
+          <p class="my-2 font-semibold">
+            Name<span class="font-normal ml-2">Skytech group</span>
+          </p>
+          <p class="my-2 font-semibold">
+            Experience<span class="font-normal ml-2">30+ years</span>
+          </p>
+          <p class="my-2 font-semibold">
+            Projects Delivered<span class="font-normal ml-2">6</span>
+          </p>
+          <p class="my-2 font-semibold">
+            Promoters<span class="font-normal ml-2">Mr. Rakesh Chawala</span>
+          </p>
+          <p class="my-2 font-semibold">
+            superwiser<span class="font-normal ml-2">AECOM</span>
+          </p>
+          <p class="my-2 font-semibold">
+            Ongoing Projects<span class="font-normal ml-2"
+              >Skytech Matrott</span
+            >
+          </p>
+        </div>
+        <div class="menu flex flex-col 1/5 w-full">
+          <h1 class="text-lg md:text-2xl my-4 font-bold">CONSTRUCTION</h1>
+          <p class="my-2 font-semibold">
+            Technology<span class="font-normal ml-2">Mivan</span>
+          </p>
+          <p class="my-2 font-semibold">
+            Towers<span class="font-normal ml-2">5</span>
+          </p>
+          <p class="my-2 font-semibold">
+            Floors<span class="font-normal ml-2">G+18</span>
+          </p>
+          <p class="my-2 font-semibold">
+            Area<span class="font-normal ml-2">3 acres</span>
+          </p>
+          <p class="my-2 font-semibold">
+            Flooring<span class="font-normal ml-2">Tile</span>
+          </p>
+          <p class="my-2 font-semibold">
+            Apartments<span class="font-normal ml-2">514</span>
+          </p>
+        </div>
+      </section>
+      <section class="w-full flex mx-auto min-h-[80vh] lg:w-3/4 items-center">
+        <div class="flex flex-col items-center md:flex-row w-full md:mx-10">
+          <div class="w-full self-start md:w-1/3">
+            <h1 class="text-5xl text-center my-6 md:my-0">Tour the Property</h1>
+          </div>
+          <div class="w-4/5 md:w-2/3">
+            <iframe
+              class="w-full h-[40vh]"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/NBcXxd5w7mU?si=ahcaDkZ7d-RBafTl"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+      <section
+        class="w-full flex flex-wrap min-h-[70vh] lg:px-[20vh] content-center bg-[#003976] items-center justify-center overflow-x-hidden"
+      >
+        <img
+          class="image1 w-11/12 h-[40vh] md:w-1/6 md:h-36 object-cover m-6"
+          src="img2.jpeg"
+          alt=""
+        />
+        <img
+          class="image w-11/12 h-[40vh] md:w-1/6 md:h-36 object-cover m-6"
+          src="img3.jpeg"
+          alt=""
+        />
+        <img
+          class="image1 w-11/12 h-[40vh] md:w-1/6 md:h-36 object-cover m-6"
+          src="img4.jpeg"
+          alt="img"
+        />
+        <img
+          class="image w-11/12 h-[40vh] md:w-1/6 md:h-36 object-cover m-6"
+          src="img5.jpeg"
+          alt=""
+        />
+        <img
+          class="image1 w-11/12 h-[40vh] md:w-1/6 md:h-36 object-cover m-6"
+          src="img6.png"
+          alt=""
+        />
+        <img
+          class="image w-11/12 h-[40vh] md:w-1/6 md:h-36 object-cover m-6"
+          src="img7.jpeg"
+          alt=""
+        />
+        <img
+          class="image1 w-11/12 h-[40vh] md:w-1/6 md:h-36 object-cover m-6"
+          src="img8.jpeg"
+          alt=""
+        />
+        <img
+          class="image w-11/12 h-[40vh] md:w-1/6 md:h-36 object-cover m-6"
+          src="img9.jpeg"
+          alt=""
+        />
+      </section>
+    </main>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56048.77294394165!2d77.38269719736398!3d28.59832752466896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cec1c1b39d89b%3A0x240467f4491ede73!2sColours%20Avenue!5e0!3m2!1sen!2sin!4v1712040419012!5m2!1sen!2sin" width="100%" height="100%" allowfullscreen="" class="h-[70vh] inset-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <section class="min-h-[70vh] relative w-full items-center bg-[url(img10.jpeg)] bg-cover bg-center flex-col sm:flex-row flex justify-center ">
+        <div class="absolute w-full h-full bg-gradient-to-t from-[#040424bf] to-[#040424bf]"></div>
+        <div class="flex my-6 flex-col h-1/2 space-y-6 items-center w-2/3 md:w-1/2 lg:w-1/3 relative z-1 text-white ">
+        <h3 class="text-lg font-bold">OPEN HOUSE</h3>
+        <h1 class="text-4xl md:text-5xl text-center ">December 19, 2021
+            1:00-3:00 PM</h1>
+    </div>
+        <div class="flex my-6 flex-col h-1/2 space-y-6 items-center w-2/3 md:w-1/2 lg:w-1/3 relative z-1 text-white ">
+        <h3 class="text-lg font-bold">CAN'T MAKE THE OPEN HOUSE?</h3>
+        <h1 class="text-4xl md:text-5xl text-center ">Schedule a Private Viewing</h1>
+        <button class="bg-[#1d83fb] px-8 py-5 text-white">
+            SCHEDULE A TOUR
+          </button>
+    </div>
+    </section>
+    <footer class="h-[20vh] bg-[#040424] flex text-white px-[15%] items-center">Copyright © 2024 Whitehat Realty. All rights reserved.  Privacy Policy</footer>
+  </body>
+  
+  <script src="script.js"></script>
+</html>
